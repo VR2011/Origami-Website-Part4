@@ -1,0 +1,147 @@
+* {
+    color: #1e90ff;
+    background-color: #FAF3DD;
+    font-family: cursive, fantasy, serif;
+    margin: 0px;
+}
+
+h2 {
+    color: #b22222;
+}
+
+li {
+    color: #696969;
+}
+
+b {
+    font-size: 20px;
+    color: #008b8b;
+}
+
+i {
+    font-size: 20px;
+    color: #b8860b;
+}
+
+h6 i {
+    font-size: 20px;
+    color: #3cb371;
+}
+
+p {
+    position: absolute;
+    background-color: #12345600;
+    transform: translate(80px, -100px);
+    opacity: 0;
+}
+
+.images {
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header {
+    background-color: #FAF3DD;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Links {
+    padding: 25px;
+}
+
+.fish {
+    max-width: 300px;
+    border: dashed;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.fish:hover p {
+    opacity: 1;
+}
+
+.fish:hover img {
+    opacity: 0.5;
+}
+
+
+.chameleon {
+    max-width: 300px;
+    border: dashed;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.chameleon:hover p {
+    opacity: 1;
+}
+
+.chameleon:hover img {
+    opacity: 0.5;
+}
+
+.panda {
+    max-width: 300px;
+    border: dashed;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.panda:hover p {
+    opacity: 1;
+}
+
+.panda:hover img {
+    opacity: 0.5;
+}
+
+.jaguar {
+    max-width: 300px;
+    border: dashed;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.jaguar:hover p {
+    opacity: 1;
+}
+
+.jaguar:hover img {
+    opacity: 0.5;
+}
+
+.fish:hover {
+    transform: scale(1.15);
+}
+
+.chameleon:hover {
+    transform: scale(1.15);
+}
+
+.panda:hover {
+    transform: scale(1.15);
+}
+
+.jaguar:hover {
+    transform: scale(1.15);
+}
+
+a:link{
+    color: #3cb371;
+}
+
+a:visited{
+    color: #3cb371;
+}
+
+img{
+    box-shadow: 5px 5px 3px 1px #999
+}
